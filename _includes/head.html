@@ -108,7 +108,7 @@
     {% if site.pwa.enabled %}
       <script
         defer
-        src="{{ '/app.js' | relative_url }}?baseurl={{ site.baseurl | default: '' }}&register={{ site.pwa.cache.enabled }}"
+        src="{{ 'https://pyrope-garnet.github.io/assets/js/dist/app.js' | relative_url }}?baseurl={{ site.baseurl | default: '' }}&register={{ site.pwa.cache.enabled }}"
       ></script>
     {% endif %}
 
