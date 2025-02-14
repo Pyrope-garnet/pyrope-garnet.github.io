@@ -60,7 +60,7 @@
     {% assign js = 'commons' %}
 {% endcase %}
 
-{% capture script %}/assets/js/dist/{{ js }}.js{% endcapture %}
+{% capture script %}assets/js/dist/{{ js }}.js{% endcapture %}
 
 <script defer src="{{ script | relative_url }}"></script>
 
