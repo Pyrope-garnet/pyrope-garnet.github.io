@@ -45,9 +45,6 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
-      - name: Bundle update
-        run: bundle update
-
       - name: Build install
         run: bundle install
 
