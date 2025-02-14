@@ -6,34 +6,34 @@ webfonts: /assets/lib/fonts/main.css
 
 toc:
   css: /assets/lib/tocbot/tocbot.min.css
-  js: /assets/lib/tocbot/tocbot.min.js
+  js: /assets/lib/tocbot/tocbot.js
 
 fontawesome:
   css: /assets/lib/fontawesome-free/css/all.min.css
 
 search:
-  js: /assets/lib/simple-jekyll-search/simple-jekyll-search.min.js
+  js: /assets/lib/simple-jekyll-search/simple-jekyll-search.js
 
 mermaid:
-  js: /assets/lib/mermaid/mermaid.min.js
+  js: /assets/lib/mermaid/mermaid.js
 
 dayjs:
   js:
-    common: /assets/lib/dayjs/dayjs.min.js
+    common: /assets/lib/dayjs/dayjs.js
     locale: /assets/lib/dayjs/locale/en.js
     relativeTime: /assets/lib/dayjs/plugin/relativeTime.js
     localizedFormat: /assets/lib/dayjs/plugin/localizedFormat.js
 
 glightbox:
   css: /assets/lib/glightbox/glightbox.min.css
-  js: /assets/lib/glightbox/glightbox.min.js
+  js: /assets/lib/glightbox/glightbox.js
 
 lazy-polyfill:
   css: /assets/lib/loading-attribute-polyfill/loading-attribute-polyfill.min.css
-  js: /assets/lib/loading-attribute-polyfill/loading-attribute-polyfill.umd.min.js
+  js: /assets/lib/loading-attribute-polyfill/loading-attribute-polyfill.umd.js
 
 clipboard:
-  js: /assets/lib/clipboard/clipboard.min.js
+  js: /assets/lib/clipboard/clipboard.js
 
 mathjax:
   js: /assets/lib/mathjax/tex-chtml.js

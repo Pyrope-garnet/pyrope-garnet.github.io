@@ -7,7 +7,7 @@ if ('serviceWorker' in navigator) {
   const baseUrl = src.searchParams.get('baseurl');
 
   if (register) {
-    const swUrl = `${baseUrl}/sw.min.js`;
+    const swUrl = `${baseUrl}/sw.js`;
     const notification = document.getElementById('notification');
     const btnRefresh = notification.querySelector('.toast-body>button');
     const popupWindow = Toast.getOrCreateInstance(notification);
